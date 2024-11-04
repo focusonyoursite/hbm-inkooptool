@@ -1,5 +1,6 @@
 ---
 title: Producten
+template: producten
 ---
 
 # Producten

@@ -1,0 +1,24 @@
+title: Leverancier
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      fields:
+        content:
+          type: tab
+          title: Content
+          fields:
+            header.website:
+              type: text
+              label: Website URL
+            header.contactpersoon:
+              type: text
+              label: Contactpersoon
+            header.telefoon:
+              type: text
+              label: Telefoonnummer
+            header.adres:
+              type: text
+              label: Adres

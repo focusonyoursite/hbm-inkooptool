@@ -1,0 +1,24 @@
+title: Product
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      fields:
+        content:
+          type: tab
+          title: Content
+          fields:
+            header.prijs:
+              type: text
+              label: Prijs
+            header.leverancier:
+              type: text
+              label: Leverancier
+            header.sku_leverancier:
+              type: text
+              label: SKU Leverancier
+            header.sku_intern:
+              type: text
+              label: SKU Intern

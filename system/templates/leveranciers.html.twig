@@ -1,0 +1,11 @@
+<h1>Leveranciers</h1>
+<ul>
+    {% for page in page.collection() %}
+        <li>
+            <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+            <p>Contactpersoon: {{ page.header.contactpersoon }}</p>
+            <p>Telefoon: {{ page.header.telefoon }}</p>
+            <p><a href="{{ page.header.website }}" target="_blank">Website</a></p>
+        </li>
+    {% endfor %}
+</ul>
