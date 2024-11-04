@@ -1,0 +1,7 @@
+tasks:
+  - init: |
+      sudo apt-get update
+      sudo apt-get install -y php php-cli php-xml unzip
+      curl -sS https://getcomposer.org/installer | php
+      php composer.phar install --no-dev -o
+  - command: php -S localhost:8000
