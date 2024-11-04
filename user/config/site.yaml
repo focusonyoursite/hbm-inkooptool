@@ -1,7 +1,7 @@
-title: Grav
+title: HBM Inkooptool
 author:
-  name: Joe Bloggs
-  email: 'joe@example.com'
+  name: Arjen Zijlstra
+  email: 'arjen@houtenbouwmaterialen.nl'
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+    description: 'Inkooptool voor Hout en Bouwmaterialen'
 
