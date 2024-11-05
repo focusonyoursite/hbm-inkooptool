@@ -1,5 +1,6 @@
 ---
 title: Leveranciers
+template: supplier
 ---
 
 # Leveranciers

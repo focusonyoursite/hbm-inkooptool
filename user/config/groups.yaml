@@ -1,0 +1,28 @@
+admin:
+  groupname: Admin
+  readableName: Admin
+  description: Beheerders met volledige toegang
+  access:
+    admin:
+      login: true
+      super: true
+    site:
+      login: true
+
+management:
+  groupname: Management
+  readableName: Management
+  description: Management met CRUD-rechten
+  access:
+    admin:
+      login: true
+    site:
+      login: true
+
+gebruikers:
+  groupname: Gebruikers
+  readableName: Gebruikers
+  description: Gebruikers met alleen leesrechten
+  access:
+    site:
+      login: true

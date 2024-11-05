@@ -11,6 +11,9 @@ pages:
     markdown: true
     twig: false
 
+routes:
+  /login: '/02.login'
+
 cache:
   enabled: true
   check:
